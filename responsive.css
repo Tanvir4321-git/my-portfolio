@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+}
+/* laptop */
+@media screen and ( max-width:1080px){
+    .coding {
+    padding: 35px;
+    }
+    .coding-img {
+    width: 50%;
+}
+
+.coding-img img {
+    width: 100%;
+}
+.coding-text h2 {
+    font-size: 20px;
+
+}
+} 
+/* tab */
+@media screen and ( max-width:768px){
+    .main-area h1{
+        font-size: 20px;
+    } 
+    .btn{
+        padding: 14px 16px;
+    }
+    a.btn{
+        font-size: 15px;
+    }
+    .section-1 .developer {
+    
+    padding: 40px 10px;
+    margin: 50px 0;
+}
+.developer h1 {
+    font-size: 30px;
+    line-height: 45px;
+}
+.developer img {
+    width: 50%;
+}
+.developer p {
+
+    font-size: 16px;
+    text-align: justify;
+}
+.development {
+    
+    font-size: 26px;
+
+    margin-bottom: 21px;
+}
+   .coding {
+     padding: 20px 20px 44px 20px;
+
+    margin-bottom: 65px;
+    flex-direction: column-reverse;
+}
+    .coding-img {
+        width: 100%;
+    }
+ .coding-text {
+    width: 100%;
+ padding: unset;
+ text-align: center;
+   
+}
+    .coding-text h2 {
+        font-size: 17px;
+        font-weight: 700;
+            margin-bottom: 10px;
+    }
+
+    .coding-text p {
+    
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.display{
+    display: none;
+}
+.inspiration {
+    padding: 0px 30px;
+    margin-bottom: 65px;
+}
+.inspiration h1 {
+    font-size: 28px;
+   
+    margin-bottom: 20px;
+    
+}
+.inspiration p {
+
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.border {
+
+    padding: 20px;
+
+}
+.card {
+
+    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+}
+.code {
+
+    padding: 40px;
+    gap: 24px;
+    align-items: center;
+    width: 70%;
+}
+.foot {
+    padding: 20px 0px;
+}
+.foot h3 {
+    font-size: 15px;
+}
+.social {
+
+    gap: 8px;
+}
+
+}
+    
+/* phone */
+@media screen and ( max-width:425px){
+     .main-area h1{
+        font-size: 15px;
+    } 
+
+
+     .btn{
+        padding: 10px 5px;
+    }
+    a.btn{
+        font-size: 11px;
+    }
+    .developer h1 {
+        font-size: 20px;
+        line-height: 31px;
+}
+.developer img, .developer h1, .developer p {
+    margin-bottom: 20px;
+}
+    .developer p {
+        font-size: 14px;
+        text-align: justify;
+    }
+    .development {
+    
+    font-size: 20px;
+
+    margin-bottom: 20px;
+}
+.career {
+    
+    
+    margin-bottom: 40px;
+    text-align: justify;
+}
+.display{
+    display: none;
+}
+    .coding {
+     padding: 20px 20px 30px 20px;
+    }
+    .coding-text h2 {
+        font-size: 15px;
+        font-weight: 700;
+        margin-bottom: 6px;
+        line-height: 28px;
+    }
+    .coding-text p {
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .inspiration {
+        margin-bottom: 33px;
+    }
+    .target h1 {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.target p {
+    margin-bottom: 25px;
+}
+    .code {
+        padding: 28px;
+        gap: 18px;
+        align-items: center;
+        width: 85%;
+    }
+    .foot h3 {
+        font-size: 10px;
+    }
+    .social img {
+    width: 24px;
+}
+
+    
+}

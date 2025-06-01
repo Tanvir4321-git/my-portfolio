@@ -30,7 +30,7 @@ body{
      
 }
 .main-area h1{
-    text-align: center;
+    
    font-size: 28px;
 } 
 
@@ -62,7 +62,7 @@ a.btn{
     color: white;
 
 }
-  .section-1 .developer {
+.section-1 .developer {
     background-color:#E6EDF9;
     padding: 40px 60px;
     margin: 100px 0;
@@ -162,6 +162,23 @@ a.btn{
     display: block;
  
 }
+
+.video {
+    max-width: 1036px;
+   
+}
+iframe {
+    width: 100%;
+    
+      aspect-ratio: 16 / 9;
+}
+
+
+
+
+
+
+
 .target h1{
     text-align: center;
     font-size: 32px;
@@ -183,7 +200,7 @@ a.btn{
     
 }
 .code{
-    width: 354px;
+    width: 30%;
     
     padding: 40px;
     color: rgb(0, 0, 0);
